@@ -1,6 +1,6 @@
 {
   "name": "mysql-statement-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mysql Statement Runner will wait until mysql becomes available, run statements, and return",
   "main": "lib/index.js",
   "scripts": {
