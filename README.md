@@ -27,3 +27,6 @@ runner( schema, options ).then( function(){
 `options.password` is the password to connect with.
 
 `options.port` is the port to connect on. Defaults to `3306`.
+
+`options.timeout` is how long the test runner will attempt to connect before erroring.
+Defaults to 1 minute.
