@@ -28,5 +28,5 @@ runner( schema, options ).then( function(){
 
 `options.port` is the port to connect on. Defaults to `3306`.
 
-`options.timeout` is how long the test runner will attempt to connect before erroring.
-Defaults to 1 minute.
+`options.timeout` is how many milliseconds the test runner will attempt to connect before erroring.
+Defaults to `60 * 1000`
