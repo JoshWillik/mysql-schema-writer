@@ -1,0 +1,31 @@
+{
+  "name": "mysql-statement-runner",
+  "version": "1.0.0",
+  "description": "Mysql Statement Runner will wait until mysql becomes available, run statements, and return",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshWillik/mysql-schema-writer.git"
+  },
+  "keywords": [
+    "mysql",
+    "schema",
+    "sql",
+    "waiter",
+    "writer",
+    "runner"
+  ],
+  "author": "Josh Vanderwillik <joshwillik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshWillik/mysql-statement-runner/issues"
+  },
+  "homepage": "https://github.com/JoshWillik/mysql-statement-runner#readme",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "mysql": "^2.8.0"
+  }
+}
