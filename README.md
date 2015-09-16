@@ -1,11 +1,11 @@
-# Mysql Statement Runner
+# Mysql Schema Writer
 
-Mysql Statement Runner is designed to wait until a database is available and then run commands on it.
+Mysql Statement Runner is designed to wait until a database is available and then writes a schema to it.
 
 ## Install
 
 ```sh
-$ npm install mysql-statement-runner
+$ npm install @joshwillik/mysql-schema-writer
 ```
 
 ## Usage
